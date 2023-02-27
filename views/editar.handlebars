@@ -1,0 +1,20 @@
+<h1>Editar livro</h1>
+
+<form action="/editar" method="POST">
+
+    <div class="form-controle">
+        
+        <input type="hidden" name="idlivraria" value="{{livros.idlivraria}}">
+        <label >Nome</label>
+        <input type="text" name="nome" value="{{livros.nome}}">
+        <label >Categoria</label>
+        <input type="text" name="categoria" value="{{livros.categoria}}">
+        <label >Quantidade</label>
+        <input type="text" name="quantidade" value="{{livros.quantidade}}">
+        <button>Editar</button>
+
+        <a href="/livros">voltar</a>
+
+    </div>
+
+</form>

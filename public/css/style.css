@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #C1DFD6;
+}
+
+h1{
+    text-align: center;
+    color: #011936;
+}
+
+.form-control{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.form-control input{
+    margin-top: 5px;
+    height: 30px;
+    background-color: #FFFBFA;
+    border-radius: 5px;
+}
+
+.form-control label{
+    margin-top: 20px;
+    color: #011936;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.livro-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    
+}
+
+.livro-container p{
+    display: flex;
+    margin-right: 10px;
+    background-color: #011936;
+    height: 40px;
+    width: 120px;
+    color: #FFFBFA;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.nome-container{
+    width: 300px;
+    margin-right: 10px;
+    display: flex;
+    margin: 15px;
+    background-color: #FFFBFA;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.categoria-container{
+    width: 300px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFBFA;
+    border-radius: 10px;
+}
+
+.quantidade-container{
+    width: 300px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFBFA;
+    border-radius: 10px;
+}
+
+button{
+    margin: 15px;
+    background-color: #011936;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    color: #FFFBFA;
+}
+
+.form-controle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-controle label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    height: 30px;
+    background-color: #011936;
+    color: #FFFBFA;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 140px;
+}
+
+.form-controle input{
+    text-align: center;
+    margin-top: 5px;
+    height: 30px;
+    background-color: #FFFBFA;
+    border-radius: 5px;
+}
+
+.form-controle a{
+    text-decoration: none;
+    color: #011936;
+    font-size: 20px;
+}
+
+
+.container-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+.container-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.container-nav li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    width: 120px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.container-nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFBFA;
+    font-size: 18px;
+    width: 120px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.container-nav li:hover{
+    background-color: #011936;
+    transition: 0.3s;
+}
+
+.container-nav a:hover{
+    background-color: #011936;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.body-cadastrar{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-CadastrarU{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    width: 20vw;
+    flex-direction: column;
+    border: solid;
+    border-radius: 10px;
+}
+
+.form-CadastrarU form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-CadastrarU label{
+    padding-top: 30px;
+}
+
+.form-CadastrarU input{
+    margin-top: 30px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+

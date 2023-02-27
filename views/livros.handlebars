@@ -1,0 +1,55 @@
+<nav class="container-nav">
+    <ul>
+        <li>
+            <a href="/livros">Home</a>
+        </li>
+        <li>
+            <a href="/cadastrarU">Cadastrar</a>
+        </li>
+        <li>
+            <a href="/login">Sair</a>
+        </li>
+    </ul>
+</nav>
+
+<h1>Cadastrar livro</h1>
+
+<form action="/livros/cadastrar" method="POST">
+
+    <div class="form-control">
+        <label >Nome</label>
+        <input type="text" name="nome" placeholder="Digite o livro">
+        <label >Categoria</label>
+        <input type="text" name="categoria" placeholder="Digite a categoria">
+        <label >Páginas lidas</label>
+        <input type="text" name="quantidade" placeholder="Digite a quantidade">
+        <button>Cadastrar</button>
+
+    </div>
+
+</form>
+
+<h1>Livros cadastrados</h1>
+
+<div class="livro-container">
+    {{#each livros}}
+
+    <div class="nome-container">
+        <p>Nome:</p>{{this.nome}}
+    </div>
+
+    <div class="categoria-container">
+        <p>Categoria:</p>{{this.categoria}}
+
+    </div>
+
+    <div class="quantidade-container">
+        <p>Quantidade:</p>{{this.quantidade}}
+
+    </div>
+        <a href="editar/{{this.idlivraria}}"><button>Editar</button></a>
+        <a href="/livros/deletar/{{this.idlivraria}}"><button>Deletar</button></a>
+    {{/each}}
+
+
+</div>
